@@ -12,6 +12,9 @@ Recommended workflow:
 3. Merge dataframe with mobileOG metadata
 4. Calculate contig-element purity and choose cut-off value. _in my experience, values of 0.75 or greater are generally reliable, but follow-up is crucial to confirm the classification_  
 
+## Citing Us
+Manuscript currently in preparation. 
+
 ## Acknowledgements 
 The mobileOG database was created by merging and analyzing the contents of seven complete MGE databases. The databases, and their references, are linked below. 
 1. ICEBerg (ICEs, AICEs, CIMEs, IMEs): (link)
@@ -20,3 +23,4 @@ The mobileOG database was created by merging and analyzing the contents of seven
 5. Prokaryotic viral orthologous groups (pVOG) (a collection of prokaryotic virus protein HMMs): (link) 
 6. COMPASS (plasmids): (link)
 7. NCBI Plasmid RefSeq (plasmids): (link)  
+
