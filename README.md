@@ -4,7 +4,7 @@
 ## Description of the mobileOGs database
 The mobileOGs database is a manually curated database of protein families mediating the integration/excision, replication/recombination/repair, stability/defense, or transfer of bacterial mobile genetic elements and phages as well as associated transcriptional regulators. There are also a large selection of phage structural genes. 
 
-## Usage Recommendations
+## Usage Recommendations (for annotating full length proteins)
 An example shell script and an R script used for analysis are provided (here).
 Recommended workflow:
 1. Annotate open reading frames of contigs/scaffolds/genomes using ORF prediction software such as prodigal (recommended)
