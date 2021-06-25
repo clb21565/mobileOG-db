@@ -10,6 +10,4 @@ Recommended workflow:
 3. Merge dataframe with mobileOG metadata
 4. Calculate contig-element purity and choose cut-off value. _in my experience, values of 0.75 or greater are generally reliable, but follow-up is crucial to confirm the classification_  
 
-Contig classifications are now ready for subsequent analysis. 
-
 ## Acknowledgements 
