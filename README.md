@@ -39,7 +39,7 @@ Grazziotin AL, Koonin EV, Kristensen DM. Prokaryotic Virus Orthologous Groups (p
 
 Douarre PE, Mallet L, Radomski N, Felten A, Mistou MY. Analysis of COMPASS, a New Comprehensive Plasmid Database Revealed Prevalence of Multireplicon and Extensive Diversity of IncF Plasmids. Front Microbiol. 2020;11:483. Published 2020 Mar 24. doi:10.3389/fmicb.2020.00483
 
-7. NCBI Plasmid RefSeq (plasmids): 
+6. NCBI Plasmid RefSeq (plasmids): 
 
 
 O'Leary NA, Wright MW, Brister JR, et al. Reference sequence (RefSeq) database at NCBI: current status, taxonomic expansion, and functional annotation. Nucleic Acids Res. 2016;44(D1):D733-D745. doi:10.1093/nar/gkv1189
