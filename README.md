@@ -24,7 +24,7 @@ Recommended workflow:
 
 **Some caveats.**  
 
-In general, it is recommended that a successful MGE detection should have multiple hits to multiple modules, all tending to agree on a consensus element. See adjoining R scripts for tentative annotation recommendations. 
+In general, it is recommended that a successful MGE detection should have multiple hits to multiple modules, all tending to agree on a consensus element type. See R scripts for tentative annotation recommendations. 
 
 Excision/integration module hits that also have a replication tag might be housekeeping genes _xerC/xerD_ or others. Likewise, replication/recombination/repair modules alone should not be interpreted as probably MGEs.
 
