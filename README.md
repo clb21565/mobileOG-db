@@ -1,8 +1,8 @@
 # mobileOG-db 
 ## Release name: _beatrix_ 1.0 
 ## ![alt text](https://i.imgur.com/PpkWCsn.jpeg)
-## Description of the mobileOGs database
-mobileOG-db is a manually curated database of protein families mediating the integration/excision, replication/recombination/repair, stability/defense, or transfer of bacterial mobile genetic elements and phages as well as associated transcriptional regulators. There are also a large selection of phage structural genes. 
+## Description of mobileOG-db
+mobileOG-db is a manually curated database of protein families mediating the integration/excision, replication/recombination/repair, stability/defense, or transfer of bacterial mobile genetic elements and phages as well as the associated transcriptional regulators of these processes. There are also a large selection of phage structural genes. 
 
 ## Usage Recommendations (for annotating full length proteins)
 An example shell script and an R script used for analysis are provided (here).
@@ -23,4 +23,3 @@ mobileOG-db was created by merging and analyzing the contents of seven complete 
 5. Prokaryotic viral orthologous groups (pVOG) (a collection of prokaryotic virus protein HMMs): (link) 
 6. COMPASS (plasmids): (link)
 7. NCBI Plasmid RefSeq (plasmids): (link)  
-
