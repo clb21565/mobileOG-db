@@ -2,7 +2,10 @@
 ## Release name: _beatrix_ 1.0 
 ## ![alt text](https://i.imgur.com/PpkWCsn.jpeg)
 ## Description of mobileOG-db
-mobileOG-db is a manually curated database of protein families mediating the integration/excision, replication/recombination/repair, stability/defense, or transfer of bacterial mobile genetic elements and phages as well as the associated transcriptional regulators of these processes. There are also a large selection of phage structural genes. 
+mobileOG-db (for mobile orthologous groups) is a manually curated database of protein families mediating the integration/excision, replication/recombination/repair, stability/defense, or transfer of bacterial mobile genetic elements and phages as well as the associated transcriptional regulators of these processes. There are also a large selection of phage structural genes. mobileOG-db was created in a process involving more than 15,000 unique manual curation events with 714 references, and 1,116 manual functional annotations at present.  
+
+## Description of the mobileOG-db categories
+It is helpful for annotating mobile genetic elements to delineate their genes into distinctive functional modules. We identified a core set of categories, that comprise key steps of the mobile genetic element "life-style." These include (1) replication/recombination/repair of element nucleic acid; (2) stability/transfer/defense; (3) transfer through conjugation or natural competence; (4) excision/integration; (5) associated transcriptional regulators; (6) phage structural proteins.   
 
 ## Usage Recommendations (for annotating full length proteins)
 An example shell script and an R script used for analysis are provided (here).
@@ -12,11 +15,19 @@ Recommended workflow:
 3. Merge dataframe with mobileOG metadata
 4. Calculate contig-element purity and choose cut-off value. _in my experience, values of 0.75 or greater are generally reliable, but follow-up is crucial to confirm the classification_  
 
+Some caveats. 
+In general, it is recommended that a successful MGE detection should have multiple hits to multiple modules, all tending to agree on a consensus element. See adjoining R scripts for tentative annotation recommendations. 
+
+Excision/integration module hits that also have a replication tag might be housekeeping genes _xerC/xerD_ or others. 
+
+Hits to T4SS systems in the conjugation module are not necesarrily indicative of MGEs. Paralogs are associated with virulence in some organisms.  
+
 ## Citing Us
 Manuscript currently in preparation. 
 
 ## Acknowledgements 
-mobileOG-db was created by merging and analyzing the contents of six complete MGE databases. The databases, and their references, are linked below. 
+To create mobileOG-db, we analyzed 10,776,212 proteins derived from 6 different databases of complete MGE sequences. The references to these databases are below. 
+
 1. ICEBerg (ICEs, AICEs, CIMEs, IMEs): 
 
 Meng Liu, Xiaobin Li, Yingzhou Xie, Dexi Bi, Jingyong Sun, Jun Li, Cui Tai, Zixin Deng, Hong-Yu Ou, ICEberg 2.0: an updated database of bacterial integrative and conjugative elements, Nucleic Acids Research, Volume 47, Issue D1, 08 January 2019, Pages D660–D665, https://doi.org/10.1093/nar/gky1123
