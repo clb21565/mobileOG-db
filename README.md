@@ -1,7 +1,7 @@
 # mobileOG-db v. beatrix 1.0 
 ![alt text](https://i.imgur.com/PpkWCsn.jpeg)
 ## Description of the mobileOGs database
-The mobileOGs database is a manually curated database of protein families mediating the integration/excision, replication/recombination/repair, stability/defense, or transfer of bacterial mobile genetic elements and phages as well as associated transcriptional regulators. There are also a large selection of phage structural genes. 
+mobileOG-db is a manually curated database of protein families mediating the integration/excision, replication/recombination/repair, stability/defense, or transfer of bacterial mobile genetic elements and phages as well as associated transcriptional regulators. There are also a large selection of phage structural genes. 
 
 ## Usage Recommendations (for annotating full length proteins)
 An example shell script and an R script used for analysis are provided (here).
@@ -15,7 +15,7 @@ Recommended workflow:
 Manuscript currently in preparation. 
 
 ## Acknowledgements 
-The mobileOG database was created by merging and analyzing the contents of seven complete MGE databases. The databases, and their references, are linked below. 
+mobileOG-db was created by merging and analyzing the contents of seven complete MGE databases. The databases, and their references, are linked below. 
 1. ICEBerg (ICEs, AICEs, CIMEs, IMEs): (link)
 2. ACLAME (various): (link)
 4. GutPhage Database (Bacteriophages derived from human gut metagenomes): (link) 
