@@ -1,4 +1,5 @@
-# mobileOG-db v. beatrix 1.0 
+# mobileOG-db 
+## Release name: _beatrix_ 1.0 
 ![alt text](https://i.imgur.com/PpkWCsn.jpeg)
 ## Description of the mobileOGs database
 mobileOG-db is a manually curated database of protein families mediating the integration/excision, replication/recombination/repair, stability/defense, or transfer of bacterial mobile genetic elements and phages as well as associated transcriptional regulators. There are also a large selection of phage structural genes. 
