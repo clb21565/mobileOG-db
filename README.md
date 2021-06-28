@@ -22,10 +22,11 @@ Recommended workflow:
 3. Merge dataframe with mobileOG metadata
 4. Calculate contig-element purity and choose cut-off value. _in my experience, values of 0.75 or greater are generally reliable, but follow-up is crucial to confirm the classification_  
 
-Some caveats. 
+**Some caveats.**  
+
 In general, it is recommended that a successful MGE detection should have multiple hits to multiple modules, all tending to agree on a consensus element. See adjoining R scripts for tentative annotation recommendations. 
 
-Excision/integration module hits that also have a replication tag might be housekeeping genes _xerC/xerD_ or others. 
+Excision/integration module hits that also have a replication tag might be housekeeping genes _xerC/xerD_ or others. Likewise, replication/recombination/repair modules alone should not be interpreted as probably MGEs.
 
 Hits to T4SS systems in the conjugation module are not necesarrily indicative of MGEs. Paralogs are associated with virulence in some organisms.  
 
