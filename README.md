@@ -15,12 +15,13 @@ These include
 (5) associated transcriptional regulators; 
 (6) phage structural proteins.   
 
+## Usage Recommendations (for annotating full length proteins)
+
 ### Interpreting mobileOG protein headers
 ### ![alt_text](https://i.imgur.com/cXBPHE7.png)
 
 mobileOG headers contain helpful information about the sequence origin, mobileOG category, element type, and annotation strategy employed in recovering the sequence, in a semi-colon separated format. Users can split this header (see example R script) to extract metadata associated with the protein sequence to aid annotation efforts.
 
-## Usage Recommendations (for annotating full length proteins)
 An example shell script and an R script used for analysis are provided (here).
 Recommended workflow:
 1. Annotate open reading frames of contigs/scaffolds/genomes using ORF prediction software such as prodigal (recommended)
