@@ -1,5 +1,5 @@
 # mobileOG-db 
-## Release name: _beatrix_ 1.0 
+## Release name: beatrix-1.0 
 ## ![alt text](https://i.imgur.com/XMuXfit.jpeg)
 ## Description of mobileOG-db
 mobileOG-db (for mobile orthologous groups) is a manually curated database of protein families mediating the integration/excision, replication/recombination/repair, stability/defense, or transfer of bacterial mobile genetic elements and phages as well as the associated transcriptional regulators of these processes. There are also a large selection of phage structural genes. mobileOG-db was created in a process involving more than 15,000 unique manual curation events, with 714 references and 1,116 manual functional annotations at present.  
