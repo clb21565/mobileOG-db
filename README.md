@@ -15,6 +15,9 @@ These include
 (5) associated transcriptional regulators; 
 (6) phage structural proteins.   
 
+### Interpreting mobileOG protein headers
+### ![alt_text]()
+
 ## Usage Recommendations (for annotating full length proteins)
 An example shell script and an R script used for analysis are provided (here).
 Recommended workflow:
