@@ -39,7 +39,7 @@ Manuscript currently in preparation.
 ## About Us
 
 <p align="center">
-  <img width="460" height="300" src="https://i.imgur.com/XMuXfit.jpeg">
+  <img width="200" height="200" src="https://i.imgur.com/XMuXfit.jpeg">
 </p>
 
 ## ![alt text](https://i.imgur.com/XMuXfit.jpeg)
