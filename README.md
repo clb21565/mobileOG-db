@@ -40,6 +40,7 @@ mobileOG headers contain helpful information about the sequence origin, mobileOG
 ## Downloads 
 
 [Stable fasta download link](https://code.vt.edu/clb21565/mobileog-db/-/raw/master/mobileOG-db_beatrix-1.0-alpha.fasta.gz) 
+[Stable metadata download link](https://code.vt.edu/clb21565/mobileog-db/-/raw/master/mobileOG-db-beatrix-1.0-alpha.xlsx)
 
 ## Citing Us
 Manuscript currently in preparation. 
