@@ -2,8 +2,6 @@
 ## Release name: beatrix-1.0 
 ## ![alt text](https://i.imgur.com/XMuXfit.jpeg)
 
-[Stable fasta download link](https://code.vt.edu/clb21565/mobileog-db/-/raw/master/mobileOG-db_beatrix-1.0-alpha.fasta.gz) 
-
 ## Description of mobileOG-db
 mobileOG-db (for mobile orthologous groups) is a manually curated database of protein families mediating the integration/excision, replication/recombination/repair, stability/defense, or transfer of bacterial mobile genetic elements and phages as well as the associated transcriptional regulators of these processes. There are also a large selection of phage structural genes. mobileOG-db was created in a process involving more than 15,000 unique manual curation events, with 714 references and 1,116 manual functional annotations at present.  
 
@@ -32,6 +30,10 @@ In general, it is recommended that a successful MGE detection should have multip
 Excision/integration module hits that also have a replication tag might be housekeeping genes _xerC/xerD_ or others. Likewise, replication/recombination/repair modules alone should not be interpreted as probably MGEs.
 
 Hits to T4SS systems in the conjugation module are not necesarrily indicative of MGEs. Paralogs are associated with virulence in some organisms.  
+
+## Downloads 
+
+[Stable fasta download link](https://code.vt.edu/clb21565/mobileog-db/-/raw/master/mobileOG-db_beatrix-1.0-alpha.fasta.gz) 
 
 ## Citing Us
 Manuscript currently in preparation. 
