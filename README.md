@@ -37,6 +37,11 @@ Hits to T4SS systems in the conjugation module are not necesarrily indicative of
 Manuscript currently in preparation. 
 
 ## About Us
+
+<p align="center">
+  <img width="460" height="300" src="https://i.imgur.com/XMuXfit.jpeg">
+</p>
+
 ## ![alt text](https://i.imgur.com/XMuXfit.jpeg)
 
 
