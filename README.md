@@ -6,7 +6,7 @@
 mobileOG-db (for mobile orthologous groups) is a manually curated database of protein families mediating the integration/excision, replication/recombination/repair, stability/defense, or transfer of bacterial mobile genetic elements and phages as well as the associated transcriptional regulators of these processes. There are also a large selection of phage structural genes. mobileOG-db was created in a process involving more than 15,000 unique manual curation events, with 714 references and 1,116 manual functional annotations at present.  
 
 ## Description of the mobileOG-db categories
-It is helpful for annotating mobile genetic elements to delineate their genes into distinctive functional modules. We identified a core set of categories, that comprise key steps of the mobile genetic element "lifestyle." 
+It is helpful for annotating mobile genetic elements to delineate their genes into distinctive functional modules. We identified a core set of categories that comprise key steps of the mobile genetic element "lifestyle." 
 These include 
 (1) replication/recombination/repair of element nucleic acid; 
 (2) stability/transfer/defense; 
