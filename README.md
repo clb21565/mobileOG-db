@@ -16,7 +16,7 @@ These include
 (6) phage structural proteins.   
 
 ### Interpreting mobileOG protein headers
-### ![alt_text]()
+### ![alt_text](https://i.imgur.com/Si2MImT.png)
 
 ## Usage Recommendations (for annotating full length proteins)
 An example shell script and an R script used for analysis are provided (here).
