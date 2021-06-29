@@ -17,11 +17,6 @@ These include
 
 ## Usage Recommendations (for annotating full length proteins)
 
-### Interpreting mobileOG protein headers
-### ![alt_text](https://i.imgur.com/cXBPHE7.png)
-
-mobileOG headers contain helpful information about the sequence origin, mobileOG category, element type, and annotation strategy employed in recovering the sequence, in a semi-colon separated format. Users can split this header (see example R script) to extract metadata associated with the protein sequence to aid annotation efforts.
-
 An example shell script and an R script used for analysis are provided (here).
 Recommended workflow:
 1. Annotate open reading frames of contigs/scaffolds/genomes using ORF prediction software such as prodigal (recommended)
@@ -36,6 +31,11 @@ In general, it is recommended that a successful MGE detection should have multip
 Excision/integration module hits that also have a replication tag might be housekeeping genes _xerC/xerD_ or others. Likewise, replication/recombination/repair modules alone should not be interpreted as probable MGEs.
 
 Hits to T4SS systems in the conjugation module are not necesarrily indicative of MGEs. Paralogs are associated with virulence in some organisms.  
+
+### Interpreting mobileOG protein headers
+### ![alt_text](https://i.imgur.com/cXBPHE7.png)
+
+mobileOG headers contain helpful information about the sequence origin, mobileOG category, element type, and annotation strategy employed in recovering the sequence, in a semi-colon separated format. Users can split this header (see example R script) to extract metadata associated with the protein sequence to aid annotation efforts.
 
 ## Downloads 
 
