@@ -38,6 +38,7 @@ Hits to T4SS systems in the conjugation module are not necesarrily indicative of
 mobileOG headers contain helpful information about the sequence origin, mobileOG category, element type, and annotation strategy employed in recovering the sequence, in a semi-colon separated format. Users can split this header (see example R script) to extract metadata associated with the protein sequence to aid annotation efforts.
 
 ## Downloads 
+Note that a finalized version will be released on 08/15/2021 including a web platform and a better classification system. 
 
 [Stable fasta download link](https://code.vt.edu/clb21565/mobileog-db/-/raw/master/mobileOG-db_beatrix-1.0.alpha.fasta) 
 
