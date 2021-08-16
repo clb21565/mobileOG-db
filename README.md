@@ -3,52 +3,19 @@
 ## ![alt text](https://i.imgur.com/XMuXfit.jpeg)
 
 ## Description of mobileOG-db
-mobileOG-db (for mobile orthologous groups) is a manually curated database of protein families mediating the integration/excision, replication/recombination/repair, stability/defense, or transfer of bacterial mobile genetic elements and phages as well as the associated transcriptional regulators of these processes. There are also a large selection of phage structural genes. mobileOG-db was created in a process involving more than 15,000 unique manual curation events, with 714 references and 1,116 manual functional annotations at present.  
-
-## Description of the mobileOG-db categories
-It is helpful for annotating mobile genetic elements to delineate their genes into distinctive functional modules. We identified a core set of categories that comprise key steps of the mobile genetic element "lifestyle." 
-These include 
-(1) replication/recombination/repair of element nucleic acid; 
-(2) stability/transfer/defense; 
-(3) transfer through conjugation or natural competence; 
-(4) excision/integration; 
-(5) associated transcriptional regulators; 
-(6) phage structural proteins.   
-
-## Usage Recommendations (for annotating full length proteins)
-
-An example shell script and an R script used for analysis are provided (here).
-Recommended workflow:
-1. Annotate open reading frames of contigs/scaffolds/genomes using ORF prediction software such as prodigal (recommended)
-2. Search ORFs against diamond database. _ensure that complete headers are recovered from the mobileOGs by including -outfmt 6 sseqid or stitle_
-3. Merge dataframe with mobileOG metadata or extract metadata from sequence headers
-4. Calculate contig-element purity and choose cut-off value. _in my experience, values of 0.75 or greater are generally reliable, but follow-up is crucial to confirm the classification_  
-
-**Some caveats.**  
-
-In general, it is recommended that a successful MGE detection should have multiple hits to multiple modules, all tending to agree on a consensus element type. See R scripts for tentative annotation recommendations. 
-
-Excision/integration module hits that also have a replication tag might be housekeeping genes _xerC/xerD_ or others. Likewise, replication/recombination/repair modules alone should not be interpreted as probable MGEs.
-
-Hits to T4SS systems in the conjugation module are not necesarrily indicative of MGEs. Paralogs are associated with virulence in some organisms.  
-
-### Interpreting mobileOG protein headers
-### ![alt_text](https://i.imgur.com/cXBPHE7.png)
-
-mobileOG headers contain helpful information about the sequence origin, mobileOG category, element type, and annotation strategy employed in recovering the sequence, in a semi-colon separated format. Users can split this header (see example R script) to extract metadata associated with the protein sequence to aid annotation efforts.
+mobileOG-db (for mobile orthologous groups) is a manually curated database of protein families mediating the integration/excision, replication/recombination/repair,
+stability/defense, or transfer of bacterial mobile genetic elements and phages as well as the associated transcriptional regulators of these processes. mobileOG-db was created
+in a process involving more than 15,000 unique manual curation events, with 1,558 references and 2,444 unique manual functional annotations at present.
 
 ## Downloads 
-Note that a finalized version will be released on 08/15/2021 including a web platform and a better classification system. 
-
-[Stable fasta download link](https://code.vt.edu/clb21565/mobileog-db/-/raw/master/mobileOG-db_beatrix-1.0.alpha.fasta) 
-
-[Stable metadata download link](https://code.vt.edu/clb21565/mobileog-db/-/raw/master/mobileOG-db-beatrix-1.0-alpha.xlsx)
+The current version of the database can be browsed accessed through its website: 
+https://mobileogdb.flsi.cloud.vt.edu/
 
 ## Citing Us
 Manuscript currently in preparation. 
 
 ## Acknowledgements 
-To create mobileOG-db, we analyzed 10,776,212 proteins derived from 6 different databases of complete MGE sequences. The references to these databases are below. 
+To create mobileOG-db, we analyzed 10,776,212 proteins derived from 7 different databases of complete MGE sequences. The references to these databases are below. 
 
 1. ICEBerg (ICEs, AICEs, CIMEs, IMEs): 
 
@@ -76,3 +43,8 @@ Douarre PE, Mallet L, Radomski N, Felten A, Mistou MY. Analysis of COMPASS, a Ne
 
 
 O'Leary NA, Wright MW, Brister JR, et al. Reference sequence (RefSeq) database at NCBI: current status, taxonomic expansion, and functional annotation. Nucleic Acids Res. 2016;44(D1):D733-D745. doi:10.1093/nar/gkv1189
+
+7. immedb (integrative elements):
+Jiang,X., Hall,A.B., Xavier,R.J. and Alm,E.J. (2019) Comprehensive analysis of chromosomal
+mobile genetic elements in the gut microbiome reveals phylum-level niche-adaptive
+gene pools. PLoS One, 14, e0223680.
