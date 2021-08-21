@@ -1,65 +1,71 @@
 # Description:
 
 mobileOG-pl. v. kyanite is a preliminary mobile genetic element annotation pipeline using the mobile orthologous groups database (https://mobileogdb.flsi.cloud.vt.edu/). It takes a set of contigs or long reads as input and produces:
+
 1)	Open reading frames using prodigal
 2)	Alignment summaries to a mobile orthologous groups database file using diamond
 3)	Element-mapping data summarizing matches to proteins from different element classes. 
 
 mobileOG-pl can be used as the basis for detection of any major class of bacterial MGE (i.e., plasmid, bacteriophage, insertion sequence, or integrative element) and can be complemented with other tools to achieve a fine-grained element classification.  
 
+
+# Quick-start guide:
 ## Dependencies: 
 
 python 3.7 with pandas, argparse, itertools
+
 prodigal 
-diamond 0.9.24 or more greater
 
-# Quick-start guide:
+diamond 0.9.24 or greater
 
-conda create -n mobileOG-db
-conda activate mobileOG-db
-conda install -c conda-forge biopython
+	conda create -n mobileOG-db
 
-mkdir mobileOG-db_workdir
-cd mobileOG-db_workdir
+	conda activate mobileOG-db
 
-PATH_TO_DOWNLOAD=download link
+	conda install -c conda-forge biopython
 
-wget $PATH_TO_DOWNLOAD 
+	mkdir mobileOG-db_workdir
 
-DOWNLOADED_ZIP=downloaded zip file
+	cd mobileOG-db_workdir
 
-unzip $DOWNLOADED_ZIP
+	PATH_TO_DOWNLOAD=download link
 
-conda install -c conda-forge biopython
+	wget $PATH_TO_DOWNLOAD 
 
-conda install -c conda-forge biopython
+	DOWNLOADED_ZIP=downloaded zip file
 
-1. Install Conda environment with Pandas and ArgParse:
-2. Download mobileOG-db (From Website)
+	unzip $DOWNLOADED_ZIP
+
+	conda install -c conda-forge biopython
+
+	conda install -c conda-forge biopython
+
+1.	 Install Conda environment with Pandas and ArgParse:
+2.	 Download mobileOG-db (From Website)
 	
-	Database (mobileOG-db_beatrix-1.4.faa)
+		Database (mobileOG-db_beatrix-1.4.faa)
 	
-	Metadata (mobileOG-db-beatrix1.4.csv)
+		Metadata (mobileOG-db-beatrix1.4.csv)
 	
-	Code (mobileOGs-pl.sh and mobileOGs-pl.py)
+		Code (mobileOGs-pl.sh and mobileOGs-pl.py)
 
-mkdir mobileOG-db_workdir
-cd mobileOG-db_workdir
+	mkdir mobileOG-db_workdir
+	cd mobileOG-db_workdir
 
-PATH_TO_DOWNLOAD=download link
+	PATH_TO_DOWNLOAD=download link
 
-wget $PATH_TO_DOWNLOAD 
+	wget $PATH_TO_DOWNLOAD 
 
-DOWNLOADED_ZIP=downloaded zip file
+	DOWNLOADED_ZIP=downloaded zip file
 
-unzip $DOWNLOADED_ZIP
+	unzip $DOWNLOADED_ZIP
 
-3. Make Diamond Database:
+3. 	Make Diamond Database:
 
-diamond makedb --in mobileOG-db_beatrix-1.4.faa -d mobileOG-db_beatrix-1.4.dmnd
+	diamond makedb --in mobileOG-db_beatrix-1.4.faa -d mobileOG-db_beatrix-1.4.dmnd
 
-4. Run Code:
+4. 	Run Code:
 
-conda activate mobileOG-db
+	conda activate mobileOG-db
 
-./mobileOGs-pl.sh -i <contigs> -k 15 -e 1e-20 -p 90 -q 90
+	./mobileOGs-pl.sh -i <contigs> -k 15 -e 1e-20 -p 90 -q 90
