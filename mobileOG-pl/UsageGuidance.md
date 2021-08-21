@@ -18,23 +18,11 @@ prodigal
 
 diamond 0.9.24 or greater
 
+1.	 Install Conda environment:
+
 	conda create -n mobileOG-db
 
 	conda activate mobileOG-db
-
-	conda install -c conda-forge biopython
-
-	mkdir mobileOG-db_workdir
-
-	cd mobileOG-db_workdir
-
-	PATH_TO_DOWNLOAD=download link
-
-	wget $PATH_TO_DOWNLOAD 
-
-	DOWNLOADED_ZIP=downloaded zip file
-
-	unzip $DOWNLOADED_ZIP
 
 	conda install -c conda-forge biopython
 
@@ -42,7 +30,6 @@ diamond 0.9.24 or greater
 	
 	conda install -c bioconda diamond
 
-1.	 Install Conda environment with Pandas and ArgParse:
 2.	 Download mobileOG-db (From Website)
 	
 		Database (mobileOG-db_beatrix-1.4.faa)
