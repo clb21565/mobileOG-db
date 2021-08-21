@@ -7,6 +7,9 @@ mobileOG-db (for mobile orthologous groups) is a manually curated database of pr
 stability/defense, or transfer of bacterial mobile genetic elements and phages as well as the associated transcriptional regulators of these processes. mobileOG-db was created
 in a process involving more than 15,000 unique manual curation events, with 1,558 references and 2,444 unique manual functional annotations at present.
 
+## Try mobileOG-pl, a pipeline to detect and categorize bacterial mobile genetic elements from contigs or long reads. 
+https://github.com/clb21565/mobileOG-db/blob/main/mobileOG-pl/UsageGuidance.md
+
 ## Downloads 
 The current version of the database can be browsed accessed through its website: 
 https://mobileogdb.flsi.cloud.vt.edu/
