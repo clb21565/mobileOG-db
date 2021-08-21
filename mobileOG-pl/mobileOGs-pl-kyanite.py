@@ -2,7 +2,7 @@ import pandas as pd
 import os
 from itertools import groupby
 import argparse
-
+## author : James Mullet, Connor Brown
 #Parsing Command
 parser=argparse.ArgumentParser(description='parse seqs to extract taxa')
 parser.add_argument("--i", type=str, required=True,
