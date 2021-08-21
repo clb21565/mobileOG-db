@@ -38,7 +38,9 @@ diamond 0.9.24 or greater
 
 	conda install -c conda-forge biopython
 
-	conda install -c conda-forge biopython
+	conda install -c bioconda prodigal
+	
+	conda install -c bioconda diamond
 
 1.	 Install Conda environment with Pandas and ArgParse:
 2.	 Download mobileOG-db (From Website)
@@ -68,4 +70,4 @@ diamond 0.9.24 or greater
 
 	conda activate mobileOG-db
 
-	./mobileOGs-pl.sh -i <contigs> -k 15 -e 1e-20 -p 90 -q 90
+	mobileOGs-pl.sh -i <contigs> -k 15 -e 1e-20 -p 90 -q 90
