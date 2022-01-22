@@ -56,6 +56,7 @@ diamond 0.9.24 or greater
 4. 	Run Code (example of stringent settings):
 
 	conda activate mobileOG-db
+	
 	mobileOG-pl.sh -i <contigs> -d mobileOG-db_beatrix-1.X.dmnd -k 15 -e 1e-20 -p 90 -q 90
 
 	
