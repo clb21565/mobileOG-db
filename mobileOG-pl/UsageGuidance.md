@@ -12,7 +12,7 @@ mobileOG-pl can be used as the basis for detection of any major class of bacteri
 # Quick-start guide:
 ## Dependencies: 
 
-python 3.7 with pandas, argparse, itertools
+python 3.6.15 with pandas, argparse, itertools
 
 prodigal 
 
@@ -20,7 +20,7 @@ diamond 0.9.24 or greater
 
 1.	 Install Conda environment:
 
-	conda create -n mobileOG-db
+	conda create -n mobileOG-db python=3.6.15
 
 	conda activate mobileOG-db
 
