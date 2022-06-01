@@ -36,6 +36,11 @@ while [[ $# -gt 0 ]]; do
       shift # past argument
       shift # past value
       ;;
+    -m|--metadata)
+      METADATA="$2"
+      shift # past argument
+      shift # past value
+      ;;
      esac
 done
 
@@ -51,6 +56,6 @@ for sample in $samples
 do
 prodigal -i ${sample} -p meta -a ${sample}.faa
 diamond blastp -q ${sample}.faa --db ${DIAMOND} --outfmt 6 stitle qtitle pident bitscore slen evalue qlen sstart send qstart qend -k $KVALUE -o ${sample}.tsv -e $ESCORE --query-cover $QUERYSCORE --id $PIDENTVALUE
-python mobileOGs-pl.py --o ${sample} --i ${sample}.tsv --m ${DIAMOND}
+python mobileOGs-pl.py --o ${sample} --i ${sample}.tsv -m ${METADATA}
 done
 
