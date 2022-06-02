@@ -38,7 +38,7 @@ diamond 0.9.24 or greater
 	
 		Metadata (mobileOG-db-beatrix-1.X.All.csv)
 	
-		Code (mobileOGs-pl.sh and mobileOGs-pl.py)
+		Code (mobileOGs-pl.sh and mobileOGs-pl.py)-
 		chmod +x mobileOGs-pl-kyanite.sh
 		
 	mkdir mobileOG-db_workdir
