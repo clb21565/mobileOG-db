@@ -120,7 +120,9 @@ df_Purity_Final = df_Purity_Final.sort_values(by='Total Number of Hits', ascendi
 #df_Purity_Final.insert(1, 'Amount of Unique ORFs', second_column)
 #df_Purity_Final.reset_index()
 Final_Out=pd.merge(df_Purity_Final,df_ORF, left_on=df_Purity_Final["Specific Contig"], right_on=df_ORF["Specific Contig"], left_index=False, right_index=False)
-
+Final_Out.rename(columns={'key_0':'Specific Contig'}, inplace=True)
+Final_Out.drop("Specific Contig_x", axis=1, inplace=True)
+Final_Out.drop("Specific Contig_y", axis=1, inplace=True)
 Final_Out.to_csv("{}.summary.csv".format(args.o))
 
 
