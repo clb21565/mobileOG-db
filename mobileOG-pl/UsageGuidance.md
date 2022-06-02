@@ -6,7 +6,7 @@ mobileOG-pl. v. kyanite is a preliminary mobile genetic element annotation pipel
 2)	Alignment summaries to a mobile orthologous groups database file using diamond
 3)	Element-mapping data summarizing matches to proteins from different element classes. 
 
-This pipeline helps depict the frequency of MGE proteins found in contigs using mobileOGs-db. It classifies protein hits into each of the major MGE category based on mobileOG-db classification of each element. mobileOG-pl can be used as the basis for detection of any major class of bacterial MGE (i.e., plasmid, bacteriophage, insertion sequence, or integrative element) and can be complemented with other tools to achieve a fine-grained element classification. 
+This pipeline helps depict the frequency of MGE proteins found in contigs using mobileOGs-db. It classifies protein hits into each of the major MGE category based on mobileOG-dbs classification of each element. mobileOG-pl can be used as the basis for detection of any major class of bacterial MGE (i.e., plasmid, bacteriophage, insertion sequence, or integrative element) and can be complemented with other tools to achieve a fine-grained element classification. 
 
 
 # Quick-start guide:
