@@ -9,7 +9,7 @@ parser.add_argument("--i", type=str, required=True,
                     help="Input clust file")
 parser.add_argument("--o", type=str, required=True,
                     help="Output file")
-parser.add_argument("--m", type=str, required=True,
+parser.add_argument("-m", type=str, required=True,
 		    help="Output file")
 args=parser.parse_args()
 path = "."
