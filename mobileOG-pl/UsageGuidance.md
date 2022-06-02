@@ -51,7 +51,7 @@ diamond 0.9.24 or greater
 
 3. 	Make Diamond Database:
 
-	diamond makedb --in mobileOG-db-beatrix-1.X.All.faa -d mobileOG-db_beatrix-1.X.dmnd
+	diamond makedb --in mobileOG-db-beatrix-1.X.All.faa -d mobileOG-db-beatrix-1.X.dmnd
 
 4. 	Run Code (example of stringent settings):
 
