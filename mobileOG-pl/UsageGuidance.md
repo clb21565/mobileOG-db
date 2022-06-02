@@ -32,9 +32,9 @@ diamond 0.9.24 or greater
 
 2.	 Download mobileOG-db (From Website)
 	
-		Database (mobileOG-db_beatrix-1.X.faa)
+		Database (mobileOG-db-beatrix-1.X.All.faa)
 	
-		Metadata (mobileOG-db-beatrix1.X.csv)
+		Metadata (mobileOG-db-beatrix-1.X.All.csv)
 	
 		Code (mobileOGs-pl.sh and mobileOGs-pl.py)
 
@@ -51,12 +51,12 @@ diamond 0.9.24 or greater
 
 3. 	Make Diamond Database:
 
-	diamond makedb --in mobileOG-db_beatrix-1.X.faa -d mobileOG-db_beatrix-1.X.dmnd
+	diamond makedb --in mobileOG-db-beatrix-1.X.All.faa -d mobileOG-db_beatrix-1.X.dmnd
 
 4. 	Run Code (example of stringent settings):
 
 	conda activate mobileOG-db
 	
-	./mobileOGs-pl-kyanite.sh -i test.fasta -d mobileOG-db-beatrix-1.X.dmnd -m mobileOG-db-beatrix1.X.csv -k 15 -e 1e-20 -p 90 -q 90
+	./mobileOGs-pl-kyanite.sh -i test.fasta -d mobileOG-db-beatrix-1.X.dmnd -m mobileOG-db-beatrix-1.X.All.csv -k 15 -e 1e-20 -p 90 -q 90
 
 	
