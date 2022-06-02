@@ -39,11 +39,13 @@ diamond 0.9.24 or greater
 		Metadata (mobileOG-db-beatrix-1.X.All.csv)
 	
 		Code (mobileOGs-pl.sh and mobileOGs-pl.py)-
-		chmod +x mobileOGs-pl-kyanite.sh
+	
 		
 	mkdir mobileOG-db_workdir
 	cd mobileOG-db_workdir
-
+	
+	chmod +x mobileOGs-pl-kyanite.sh
+	
 	PATH_TO_DOWNLOAD=download link
 
 	wget $PATH_TO_DOWNLOAD 
