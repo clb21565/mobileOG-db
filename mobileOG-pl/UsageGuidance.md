@@ -6,7 +6,7 @@ mobileOG-pl. v. kyanite is a preliminary mobile genetic element annotation pipel
 2)	Alignment summaries to a mobile orthologous groups database file using diamond
 3)	Element-mapping data summarizing matches to proteins from different element classes. 
 
-mobileOG-pl can be used as the basis for detection of any major class of bacterial MGE (i.e., plasmid, bacteriophage, insertion sequence, or integrative element) and can be complemented with other tools to achieve a fine-grained element classification.  
+This pipeline helps depict the frequency of MGE proteins found in contigs using mobileOGs-db. mobileOG-pl can be used as the basis for detection of any major class of bacterial MGE (i.e., plasmid, bacteriophage, insertion sequence, or integrative element) and can be complemented with other tools to achieve a fine-grained element classification. 
 
 
 # Quick-start guide:
@@ -64,4 +64,10 @@ diamond 0.9.24 or greater
 	
 	./mobileOGs-pl-kyanite.sh -i test.fasta -d mobileOG-db-beatrix-1.X.dmnd -m mobileOG-db-beatrix-1.X.All.csv -k 15 -e 1e-20 -p 90 -q 90
 
-	
+	-i, --input | Input Fasta File
+	-k , --kvalue | Number of Diamond Alignments to Report
+	-e, --escore | Maximum E-score
+	-d, --db | Diamond Database
+	-m, --metadata |  Metadata used to compare to samples
+	-p, --pidentvalue |  Percent of Identical Matches of samples to metadata
+	-q, --queryscore |  Percent of query coverage to sample
