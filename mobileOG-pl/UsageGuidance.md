@@ -65,9 +65,15 @@ diamond 0.9.24 or greater
 	./mobileOGs-pl-kyanite.sh -i test.fasta -d mobileOG-db-beatrix-1.X.dmnd -m mobileOG-db-beatrix-1.X.All.csv -k 15 -e 1e-20 -p 90 -q 90
 
 	-i, --input | Input Fasta File
+	
 	-k , --kvalue | Number of Diamond Alignments to Report
+	
 	-e, --escore | Maximum E-score
+	
 	-d, --db | Diamond Database
+	
 	-m, --metadata |  Metadata used to compare to samples
+	
 	-p, --pidentvalue |  Percent of Identical Matches of samples to metadata
+	
 	-q, --queryscore |  Percent of query coverage to sample
