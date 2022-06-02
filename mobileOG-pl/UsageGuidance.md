@@ -29,6 +29,8 @@ diamond 0.9.24 or greater
 	conda install -c bioconda prodigal
 	
 	conda install -c bioconda diamond
+	
+	conda install -c anaconda pandas
 
 2.	 Download mobileOG-db (From Website)
 	
