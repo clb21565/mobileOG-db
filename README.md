@@ -1,4 +1,4 @@
-# mobileOG-db | Release name: beatrix-1.0 
+# mobileOG-db | Release name: beatrix-1.6
 
 ## ![alt text](https://i.imgur.com/XMuXfit.jpeg)
 
@@ -13,6 +13,10 @@ https://github.com/clb21565/mobileOG-db/blob/main/mobileOG-pl/UsageGuidance.md
 ## Downloads 
 The current version of the database can be browsed accessed through its website: 
 https://mobileogdb.flsi.cloud.vt.edu/
+
+## Contact Us
+
+connorleebrown@gmail.com, mobileogdbsupport@vt.edu
 
 ## Citing Us
 
