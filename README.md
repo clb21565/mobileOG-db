@@ -20,9 +20,7 @@ connorleebrown@gmail.com, mobileogdbsupport@vt.edu
 
 ## Citing Us
 
-mobileOG-db: a manually curated database of protein families mediating the life cycle of bacterial mobile genetic elements
-Connor L. Brown, James Mullet, Fadi Hindi, James E. Stoll, Suraj Gupta, Minyoung Choi, Ishi Keenum, Peter Vikesland, Amy Pruden, Liqing Zhang
-bioRxiv 2021.08.27.457951; doi: https://doi.org/10.1101/2021.08.27.457951
+Brown CL, Mullet J, Hindi F, Stoll JE, Gupta S, Choi M, Keenum I, Vikesland P, Pruden A, Zhang L. mobileOG-db: a Manually Curated Database of Protein Families Mediating the Life Cycle of Bacterial Mobile Genetic Elements. Appl Environ Microbiol. 2022 Aug 29:e0099122. doi: 10.1128/aem.00991-22. Epub ahead of print. PMID: 36036594.
 
 ## Acknowledgements 
 To create mobileOG-db, we analyzed 10,776,212 proteins derived from 8 different databases of complete MGE sequences. The references to these databases are below. 
@@ -49,7 +47,7 @@ Grazziotin AL, Koonin EV, Kristensen DM. Prokaryotic Virus Orthologous Groups (p
 
 Douarre PE, Mallet L, Radomski N, Felten A, Mistou MY. Analysis of COMPASS, a New Comprehensive Plasmid Database Revealed Prevalence of Multireplicon and Extensive Diversity of IncF Plasmids. Front Microbiol. 2020;11:483. Published 2020 Mar 24. doi:10.3389/fmicb.2020.00483
 
-**6.** NCBI Plasmid RefSeq (plasmids): ****
+**6. NCBI Plasmid RefSeq (plasmids):**
 
 O'Leary NA, Wright MW, Brister JR, et al. Reference sequence (RefSeq) database at NCBI: current status, taxonomic expansion, and functional annotation. Nucleic Acids Res. 2016;44(D1):D733-D745. doi:10.1093/nar/gkv1189
 
