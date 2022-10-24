@@ -79,3 +79,14 @@ diamond 0.9.24 or greater
 	-p, --pidentvalue |  Percent of Identical Matches of samples to metadata
 	
 	-q, --queryscore |  Percent of query coverage to sample
+	
+# Guidance on interpreting results of mobileOG-pl and reproducible R notebook for summarising ARG/MGE co-localization
+Now you have some results! Congratulations! Here 
+
+	
+	
+	
+	
+	
+	
+	
