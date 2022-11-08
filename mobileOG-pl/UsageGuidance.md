@@ -1,3 +1,9 @@
+# November 2022 Update - Getting Element Classifications for Individual mobileOGs
+We have now added reproducible [R code](https://github.com/clb21565/mobileOG-db/blob/main/scripts/getElementClassifications.R) for producing element labels for mobileOGs using just the metadata (.csv) file. The resulting metadata can be accessed [here](https://drive.google.com/file/d/1tm1JfQ1uorvbJVKULSDWleq6r_pfpxZh/view?usp=share_link). This metadata file can be used to provide classification to contigs, as in the figure here: 
+
+![image](https://user-images.githubusercontent.com/35241700/200654054-c8eae8f2-e73a-4000-ab07-c08667b436fe.png)
+
+
 # Description:
 
 mobileOG-pl. v. kyanite is a lightweight mobile genetic element annotation pipeline using the mobile orthologous groups database (https://mobileogdb.flsi.cloud.vt.edu/). It takes a set of contigs or long reads as input and produces:
@@ -7,6 +13,7 @@ mobileOG-pl. v. kyanite is a lightweight mobile genetic element annotation pipel
 3)	Element-mapping data summarizing matches to proteins from different element classes. 
 
 This pipeline reports the presence of MGE proteins in a set of contigs using mobileOG-db annotations. It provides protein hit classifications as being putatively derived from plasmid, phage, insertion sequences, and/or integrative genomic element. Thus, mobileOG-pl can be used as the basis for detection of any major class of bacterial MGE and can be complemented with other tools to achieve a fine-grained element classification. 
+
 
 
 # Quick-start guide:
