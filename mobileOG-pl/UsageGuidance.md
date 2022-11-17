@@ -69,6 +69,8 @@ diamond 0.9.24 or greater
 
 	conda activate mobileOG-db
 	
+	chmod +x mobileOGs-pl-kyanite.sh
+	
 	./mobileOGs-pl-kyanite.sh -i test.fasta -d mobileOG-db-beatrix-1.X.dmnd -m mobileOG-db-beatrix-1.X.All.csv -k 15 -e 1e-20 -p 90 -q 90
 	
 5. 	Usage:
