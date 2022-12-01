@@ -10,7 +10,7 @@ in a process involving more than 15,000 unique manual curation events, with 1,55
 ## mobileOG-db now on prokksee: visualize the presence of mobileOGs on contigs or whole genomes 
 ![image](https://user-images.githubusercontent.com/35241700/205160768-b469d878-df2b-47fe-be3e-e2c3ba6ed2ec.png) ![image](https://user-images.githubusercontent.com/35241700/205161070-ce75b217-42cd-4ee6-aad8-a72dc80319c8.png)
 
-Thanks to Dr. Jason Grant for his work getting mobileOG-db available on prokksee.
+Thanks to Dr. Jason Grant for his work getting mobileOG-db available on https://proksee.ca/
 
 
 
