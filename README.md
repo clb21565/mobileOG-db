@@ -8,7 +8,8 @@ stability/defense, or transfer of bacterial mobile genetic elements and phages a
 in a process involving more than 15,000 unique manual curation events, with 1,558 references and 2,444 unique manual functional annotations at present.
 
 ## mobileOG-db now on prokksee: visualize the presence of mobileOGs on contigs or whole genomes 
-![image](https://user-images.githubusercontent.com/35241700/205160768-b469d878-df2b-47fe-be3e-e2c3ba6ed2ec.png) ![image](https://user-images.githubusercontent.com/35241700/205161070-ce75b217-42cd-4ee6-aad8-a72dc80319c8.png)
+![Untitled-1-01](https://user-images.githubusercontent.com/35241700/205512402-a1dccc53-3e7c-4dda-b540-55ddfe995548.png)
+
 
 Thanks to Dr. Jason Grant for his work getting mobileOG-db available on https://proksee.ca/
 
