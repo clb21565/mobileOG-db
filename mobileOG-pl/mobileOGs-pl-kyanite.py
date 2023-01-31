@@ -21,9 +21,8 @@ if file_empty == True:
 
 else:
 #Reads Input File and Creates New Dataframe
-    df_OUT=pd.read_csv(args.i,sep="\t")
-    df_OUT.columns=['Sequence Title','Query Title','Pident', 'Bitscore', 'Subject Sequence Length', 'e-value', 'Query Sequence Length', 'Start of Alignment in Subject', 'End of Alignment in Query','Start of Alignment in Query', 'E
-nd of Alignment in Query']
+    df_OUT=pd.read_csv(args.i,sep="\t",header=None)
+    df_OUT.columns=['Sequence Title','Query Title','Pident', 'Bitscore', 'Subject Sequence Length', 'e-value', 'Query Sequence Length', 'Start of Alignment in Subject', 'End of Alignment in Query','Start of Alignment in Query', 'End of Alignment in Query']
 
     #Sequence Title Columns
     df_OUT['mobileOG ID'] = df_OUT['Sequence Title'].str.split('|').str[0]
@@ -51,7 +50,7 @@ nd of Alignment in Query']
     df_OUT['Specific Contig'] = df_OUT['Contig/ORF Name'].apply(lambda r: '_'.join(r.split('_')[:-1]))
     df_OUT["Final Sample Name"] = df_OUT["mobileOG ID"].astype(str) + "_" + df_OUT["Specific Contig"].astype(str)
 
-#df_OUT.to_csv("{}.mobileOG.Alignment.Out.csv".format(args.o))
+    df_OUT.to_csv("{}.mobileOG.Alignment.Out.csv".format(args.o))
     #ORF Isolation
     selected_columns = df_OUT[['Specific Contig','Unique_ORF']]
     df_ORF_Temp = selected_columns.copy()
