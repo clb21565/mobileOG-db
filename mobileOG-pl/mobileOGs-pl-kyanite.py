@@ -21,7 +21,7 @@ if file_empty == True:
 
 else:
 #Reads Input File and Creates New Dataframe
-    df_OUT=pd.read_csv(args.i,sep="\t",header=None)
+    df_OUT=pd.read_csv(args.i,sep="\t",header=None,dtype='unicode')
     df_OUT.columns=['Sequence Title','Query Title','Pident', 'Bitscore', 'Subject Sequence Length', 'e-value', 'Query Sequence Length', 'Start of Alignment in Subject', 'End of Alignment in Query','Start of Alignment in Query', 'End of Alignment in Query']
 
     #Sequence Title Columns
@@ -63,7 +63,7 @@ else:
     df_ORF.reset_index()
 
     #MetaData Analysis
-    Metadata=pd.read_csv(args.m)
+    Metadata=pd.read_csv(args.m,dtype='unicode')
     Insertion_Sequences=["ISFinder"]
     Integrative_Elements=["AICE","ICE","CIME","IME","immedb"]
     Plasmids=["COMPASS","PlasmidRefSeq"]
@@ -75,6 +75,8 @@ else:
     Subset_Metadata=Metadata[Metadata["mobileOG Entry Name"].isin(df_OUT["mobileOG ID"])]
     Subset_Metadata=Metadata[["mobileOG Entry Name","PlasmidRefSeq","COMPASS","pVOG","immedb","ICE","IME","CIME","AICE","ISFinder","GPD","ACLAME"]]
     Subset_Metadata_long=pd.melt(Subset_Metadata, id_vars=['mobileOG Entry Name'], value_vars=["GPD","PlasmidRefSeq","COMPASS","pVOG","immedb","ICE","IME","CIME","AICE","ISFinder","ACLAME"])
+    #print(Subset_Metadata_long["value"].to_list(),type(Subset_Metadata_long["value"]))
+    Subset_Metadata_long['value'] = pd.to_numeric(Subset_Metadata_long['value'], errors='coerce')
     Subset_Metadata_long_matches=Subset_Metadata_long[Subset_Metadata_long["value"]>0]
     def AnnotateTypes(mobileOG_DF):
         innerdf=mobileOG_DF.copy()
