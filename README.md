@@ -1,7 +1,18 @@
+# mobileOG-db 2.0 | Janurary 2025 pre-release notes
+Hi there, thanks for using mobileOG-db 1.6. We're quite excited to introduce you to mobileOG-db 2.0, but, first we wanted to drop a pre-release so folks can try it out and provide any feedback they might have. The newest version can be accessed on [zenodo](https://zenodo.org/records/14725479). 
+
+Major changes in mobileOG-db 2.0:
+1) **Removed problematic protein families** (e.g., transcriptional regulators with limited functional annotations and chaperone proteins)
+2) **Expanded coverage of environmental sequences** through protein large language model searches of IMG/VR and IMG/PR
+3) **Increased curation of recombinase names**
+4) **Unambiguous element class labels** of plasmid, conjugative element, recombination, and phage.
+
+   
+Overall, we increased the database size by about 10-fold with the most dramatic increase being to phage protein sequences. 
+
 # mobileOG-db | Release name: beatrix-1.6
 
 ## ![alt text](https://i.imgur.com/XMuXfit.jpeg)
-
 ## Description of mobileOG-db
 mobileOG-db (for mobile orthologous groups) is a manually curated database of protein families mediating the integration/excision, replication/recombination/repair,
 stability/defense, or transfer of bacterial mobile genetic elements and phages as well as the associated transcriptional regulators of these processes. mobileOG-db was created
