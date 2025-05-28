@@ -58,6 +58,6 @@ do
   prodigal -i ${sample} -p meta -a ${sample}.faa
   diamond blastp -q ${sample}.faa --db ${DIAMOND} --outfmt 6 stitle qtitle pident bitscore slen evalue qlen sstart send qstart qend -k $KVALUE -o ${sample}.tsv -e $ESCORE --query-cover $QUERYSCORE --id $PIDENTVALUE
   # python mobileOGs-pl-kyanite.py --o ${sample} --i ${sample}.tsv -m ${METADATA}
-  python mobileOGs-pl-kyanite_v2.py --o ${sample} --i ${sample}.tsv --m ${METADATA}
+  python mobileOGs-pl-amethyst.py --o ${sample} --i ${sample}.tsv --m ${METADATA}
   echo "Finished processing $sample"
 done
