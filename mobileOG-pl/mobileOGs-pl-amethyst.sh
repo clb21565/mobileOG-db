@@ -1,4 +1,5 @@
 #!/bin/bash
+# mobileOG-pl v2 #
 
 #Parsing Command
 POSITIONAL=()
