@@ -1,5 +1,5 @@
 # mobileOG-db 2.0 | Janurary 2025 pre-release notes
-Hi there, thanks for using mobileOG-db 1.6. We're quite excited to introduce you to mobileOG-db 2.0, but, first we wanted to drop a pre-release so folks can try it out and provide any feedback they might have. The newest version can be accessed on [zenodo](https://zenodo.org/records/14725479). 
+Hi there, thanks for using mobileOG-db 1.6. We're quite excited to introduce you to mobileOG-db 2.0, but, first we wanted to drop a pre-release so folks can try it out and provide any feedback they might have.
 
 Major changes in mobileOG-db 2.0:
 1) **Removed problematic protein families** (e.g., transcriptional regulators with limited functional annotations and chaperone proteins)
@@ -35,7 +35,7 @@ https://mobileogdb.flsi.cloud.vt.edu/
 
 ## Contact Us
 
-connorleebrown@gmail.com, mobileogdbsupport@vt.edu
+connorleebrown@gmail.com, clb21565@vt.edu, clbr@bio.aau.dk 
 
 ## Citing Us
 
